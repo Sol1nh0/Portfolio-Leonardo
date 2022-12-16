@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'arial';
+}
+
+#header-portfolio {
+    background-image: url(img/giphy.gif);
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 100vw;
+}
+
+#header-portfolio, #title-footer {
+    color: #fff;
+    text-align: center;
+}
+
+#title-footer {
+    padding-top: 30px;
+    font-size: 80px;
+}
+
+.title-2 {
+    font-size: 50px;
+}
+
+.p-header {
+    font-size: 30px;
+}
+
+
+.header-socials {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-self: center;
+    align-items: center;
+}
+
+.color-linkedin {
+    color: #0e76a8;
+}
+
+.color-git {
+    color: white;
+}
+
+.color-devmedia {
+    color: #7bac3b;
+}
