@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'salma_alfasans';
+}
+
+.title-1 {/*todos os h1 da main*/
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.section-portfolio { /*seção inteira da main*/
+    margin: 0px 10%;
+    box-sizing: border-box;
+}
+
+.img-about {/*container da imagem e about-me*/
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: space-around;
+}
+
+.section-portfolio p { /*todos os paragrafos da main*/
+    text-align: justify;
+    line-height: 25px;
+    font-size: 25px;
+    margin-left: 15px;
+    color: rgb(70, 70, 70);
+}
+
+img { /*imagem da about-me*/
+    height: 350px;
+    width: 300px;
+    background-size: auto;
+    border-radius: 45%;
+}
+
+.about-me { /*container dos paragrafos da main do about-me*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: normal;
+}
+
+.p-about-me-2 {
+    margin: 20px 0px;
+}
+
+@media (max-width: 600px){
+    #my-photo{
+        height: 280px;
+        width: 260px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .img-about {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .about-me {
+        margin-top: 20px;
+    }
+    .section-portfolio p {
+        font-size: 20px;
+    }
+}

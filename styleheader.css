@@ -5,6 +5,11 @@
     font-family: 'arial';
 }
 
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 #header-portfolio {
     background-image: url(img/giphy.gif);
     width: 100%;

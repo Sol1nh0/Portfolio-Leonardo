@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'arial';
+}
+
+.projects {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.project {
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+    width: 12vw;
+    margin-bottom: 12px;
+}

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'arial';
+}
+
+.section-portfolio { /*seção inteira da main*/
+    margin: 0px 10%;
+}
+
+.skills {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.skill {
+    display: flex;
+    width: 100%;
+    
+    border: 1px solid black;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+}
+

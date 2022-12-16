@@ -2,5 +2,19 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: salma_alfasans;
+    font-family: 'arial';
+}
+
+#footer-portfolio {
+    display: grid;
+    height: 150px;
+    background-image: url('img/giphy.gif');
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#footer-portfolio p {
+    color: white;
+    
 }
