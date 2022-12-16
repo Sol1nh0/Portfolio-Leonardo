@@ -5,24 +5,31 @@
     font-family: 'arial';
 }
 
-.section-portfolio { /*seção inteira da main*/
-    margin: 0px 10%;
+.container-skills {
+    margin: 0 auto;
 }
 
 .skills {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
     box-sizing: border-box;
+    justify-content: flex-start;
 }
 
 .skill {
     display: flex;
-    width: 100%;
-    
-    border: 1px solid black;
-    border-radius: 20%;
-    justify-content: center;
+    flex-flow: row nowrap;
     align-items: center;
+    justify-content: center;
+    box-shadow: -5px -5px 10px inset red;
+    padding: 15px;
+    height: 80px;
+    margin: auto auto;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 24px;
+    border: 2px outset rgb(129, 128, 128);
+    border-radius: 10%;
 }
+
 

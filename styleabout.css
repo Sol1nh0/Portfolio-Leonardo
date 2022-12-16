@@ -13,37 +13,32 @@
 }
 
 .section-portfolio { /*seção inteira da main*/
-    margin: 0px 10%;
+    width: 80%;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
 .img-about {/*container da imagem e about-me*/
     display: flex;
     flex-direction: row;
-    flex: auto;
-    justify-content: space-around;
+    align-items: center;
 }
 
 .section-portfolio p { /*todos os paragrafos da main*/
     text-align: justify;
     line-height: 25px;
     font-size: 25px;
-    margin-left: 15px;
-    color: rgb(70, 70, 70);
+    margin-left: 50px;
+    color: rgb(83, 83, 83);
+    box-sizing: border-box;
 }
 
 img { /*imagem da about-me*/
     height: 350px;
     width: 300px;
     background-size: auto;
-    border-radius: 45%;
-}
-
-.about-me { /*container dos paragrafos da main do about-me*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    font-weight: normal;
+    border-radius: 50%;
+    border: 1px solid black;
 }
 
 .p-about-me-2 {
@@ -54,6 +49,7 @@ img { /*imagem da about-me*/
     #my-photo{
         height: 280px;
         width: 260px;
+       
     }
 }
 
@@ -67,6 +63,7 @@ img { /*imagem da about-me*/
         margin-top: 20px;
     }
     .section-portfolio p {
+        margin-left: 0;
         font-size: 20px;
     }
 }
