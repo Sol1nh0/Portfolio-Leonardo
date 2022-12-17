@@ -5,6 +5,11 @@
     font-family: 'salma_alfasans';
 }
 
+#main-portfolio {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .title-1 {/*todos os h1 da main*/
     text-align: center;
     margin: 40px 0px;
@@ -13,8 +18,6 @@
 }
 
 .section-portfolio { /*seção inteira da main*/
-    width: 80%;
-    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -33,7 +36,7 @@
     box-sizing: border-box;
 }
 
-img { /*imagem da about-me*/
+#my-photo { /*imagem da about-me*/
     height: 350px;
     width: 300px;
     background-size: auto;

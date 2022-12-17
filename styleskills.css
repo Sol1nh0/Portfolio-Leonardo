@@ -5,44 +5,29 @@
     font-family: 'arial';
 }
 
-.container-skills {
-    margin: 0 auto;
-}
-
 .skills {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .skill {
     display: flex;
-    flex-flow: row wrap;
-    align-items: center;
+    flex-flow: column;
     justify-content: center;
+    flex: 1 1 150px;
 }
 
-.skill p {
-    font-weight: bold;
-    font-size: 24px;
-    height: 80px;
-    padding: 15px;
-    box-shadow: -5px -5px 10px inset red;
-    border: 2px outset rgb(129, 128, 128);
-    border-radius: 10%;
-    box-sizing: border-box;
+.skills div p {
+    text-align: center;
 }
 
-.skill p:hover {
-    font-weight: bold;
-    font-size: 24px;
-    height: 80px;
-    padding: 15px;
-    box-shadow: -5px -5px 10px inset grey;
-    box-sizing: border-box;
-    border: 2px outset rgb(129, 128, 128);
-    border-radius: 10%;
-    box-sizing: border-box;
+.skills div img {
+    max-width: 30%;
+    display: block;
+    background-color: white;
 }
+
+
+
 
 
