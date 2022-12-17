@@ -5,14 +5,35 @@
     font-family: 'salma_alfasans';
 }
 
-#main-portfolio {
-    width: 80%;
-    margin: 0 auto;
-}
+/* //////////// ESTILIZANDO O PONTEIRO DO MOUSE //////////////// */
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: black white;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 20px;
+    border: 3px solid white;
+  }
+
+
+
+/* ////////////////// FIMM /////////////// */
 
 .title-1 {/*todos os h1 da main*/
     text-align: center;
-    margin: 40px 0px;
+    margin: 50px 0px;
     font-size: 60px;
     font-weight: normal;
 }
@@ -27,7 +48,7 @@
     align-items: center;
 }
 
-.section-portfolio p { /*todos os paragrafos da main*/
+.about-me p { /*todos os paragrafos da main*/
     text-align: justify;
     line-height: 25px;
     font-size: 25px;

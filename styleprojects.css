@@ -5,20 +5,24 @@
     font-family: 'arial';
 }
 
-.projects {
+.container-projects {
+    width: 90%;
+    margin: 0 auto;
+
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-between;
-    box-sizing: border-box;
 }
 
 .project {
+    border: 1px double black;
+    margin: 15px;
+
     display: flex;
-    border: 1px solid black;
-    align-items: center;
-    justify-content: center;
-    height: 12vh;
-    width: 12vw;
-    margin-bottom: 12px;
+    flex-flow: column wrap;
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.project div {
+    flex-grow: 1;
 }
