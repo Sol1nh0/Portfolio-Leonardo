@@ -8,13 +8,15 @@
 .skills {
     display: flex;
     flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .skill {
     display: flex;
     flex-flow: column wrap;
     flex-basis: 150px;
-    margin: auto;
+    margin: 20px auto;
 }
 
 .skills div img {
