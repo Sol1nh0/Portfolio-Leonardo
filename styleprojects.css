@@ -7,16 +7,18 @@
 
 .container-projects {
     width: 90%;
-    margin: 0 auto;
+    padding: 2% 5%;
 
     display: flex;
     flex-flow: row wrap;
+    
 }
 
 .project {
     border: 2px double black;
     border-radius: 5%;
     margin: 20px auto;
+    
     display: flex;
     flex-flow: column wrap;
     flex-basis: 20%;
@@ -24,9 +26,8 @@
     align-items: center;
 }
 
-.project div {
+.project .card-descricao {
     flex-grow: 1;
-    flex-shrink: 1;
 }
 
 .project h2 {
@@ -41,6 +42,7 @@ span {
     border: 3px solid black;
     background-color: grey;
     opacity: 0.5;
+    font-size: 16px;
     font-weight: bold;
     padding: 7px;
     margin:  7px;
@@ -53,6 +55,7 @@ span:hover {
     background-color: black;
     color: white;
     border: 3px solid black;
+    opacity: 1;
 }
 
 .style-span {
@@ -60,21 +63,32 @@ span:hover {
     flex-direction: row;
 }
 
-@media (max-width: 950px){
+@media (max-width: 1400px){
+    span {
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 1200px){
     .project{
         flex-basis: 30%;
         margin: 15px auto;
     }
 }
 
-@media (max-width: 770px){
+@media (max-width: 900px){
     .project{
         flex-basis: 45%;
         margin: 15px auto;
     }
+    span {
+        font-size: 16px;
+        font-weight: bold;
+    }
 }
 
-@media (max-width: 600px){
+@media (max-width: 700px){
     .project{
         flex-basis: 100%;
         margin: 15px auto;
