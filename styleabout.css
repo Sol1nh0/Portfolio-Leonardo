@@ -72,14 +72,6 @@
     margin: 20px 0px;
 }
 
-@media (max-width: 600px){
-    #my-photo{
-        height: 280px;
-        width: 260px;
-       
-    }
-}
-
 @media (max-width: 1000px) {
     .img-about {
         flex-direction: column;
@@ -93,4 +85,16 @@
         margin-left: 0;
         font-size: 20px;
     }
+}
+
+@media (max-width: 600px){
+    #my-photo{
+        height: 280px;
+        width: 260px;
+       
+    } 
+    .title-1 {
+        font-size: 50px;
+    }
+
 }

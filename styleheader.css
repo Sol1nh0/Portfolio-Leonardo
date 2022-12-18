@@ -61,3 +61,16 @@ body {
 .color-devmedia {
     color: #7bac3b;
 }
+
+@media (max-width: 700px){
+    #title-footer {
+        font-size: 55px;
+    }
+    .title-2 {
+        font-size: 50px;
+    }
+    .p-header {
+        font-size: 25px;
+    }
+
+}
