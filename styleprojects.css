@@ -7,18 +7,17 @@
 
 .container-projects {
     width: 90%;
-    padding: 2% 5%;
-
+    margin: auto;
     display: flex;
     flex-flow: row wrap;
-    
+
 }
+
 
 .project {
     border: 2px double black;
     border-radius: 5%;
     margin: 20px auto;
-    
     display: flex;
     flex-flow: column wrap;
     flex-basis: 20%;
