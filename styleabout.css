@@ -1,35 +1,45 @@
-* {
+body {
     margin: 0;
     padding: 0;
     border: 0;
     font-family: 'salma_alfasans';
+    box-sizing: border-box;
 }
 
-/* //////////// ESTILIZANDO O PONTEIRO DO MOUSE //////////////// */
 
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 20px;
+    border: 2px groove #a9a9a9;
+}
+
+/* //////////// ESTILIZANDO O PONTEIRO DO MOUSE //////////////// 
 * {
     scrollbar-width: thin;
     scrollbar-color: black white;
   }
   
-  /* Works on Chrome, Edge, and Safari */
+   Works on Chrome, Edge, and Safari 
   *::-webkit-scrollbar {
     width: 12px;
   }
   
   *::-webkit-scrollbar-track {
-    background: white;
+    background: transparent;
   }
   
   *::-webkit-scrollbar-thumb {
     background-color: black;
     border-radius: 20px;
-    border: 3px solid white;
+    border: 2px solid white;
   }
-
-
-
-/* ////////////////// FIMM /////////////// */
+ ////////////////// FIMM /////////////// */
 
 .title-1 {/*todos os h1 da main*/
     text-align: center;
@@ -47,29 +57,29 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 80%;
+    justify-content: center;
+    width: 90%;
     margin: 0 auto;
 }
 
-.about-me p { /*todos os paragrafos da main*/
+
+.about-me p { /*todos os paragrafos da div about-me*/
     text-align: justify;
     line-height: 25px;
     font-size: 25px;
-    margin-left: 50px;
-    color: rgb(83, 83, 83);
+    color: rgb(0, 0, 0);
     box-sizing: border-box;
+    margin-left: 50px;
+
 }
 
 #my-photo { /*imagem da about-me*/
     height: 350px;
-    width: 300px;
+    width: 350px;   
+    margin: auto;
     background-size: auto;
-    border-radius: 50%;
-    border: 1px solid black;
-}
-
-.p-about-me-2 {
-    margin: 20px 0px;
+    border-radius: 50px;
+    border: 1px solid;
 }
 
 @media (max-width: 1000px) {
@@ -89,7 +99,7 @@
 
 @media (max-width: 600px){
     #my-photo{
-        height: 280px;
+        height: 260px;
         width: 260px;
        
     } 
