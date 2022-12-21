@@ -6,27 +6,26 @@
 }
 
 .skills {
-    display: flex;
-    flex-wrap: wrap;
     width: 90%;
-    padding: 2% 5%;
-}
-
-.skill {
-    display: flex;
-    flex-flow: column wrap;
-    flex-basis: 150px;
-    margin: 20px auto;
-}
-
-.skills div img {
-    max-width: 40%;
     margin: auto;
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(130px,1fr));
+    box-sizing: border-box;
+}
+
+
+
+.skill img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    margin: auto;
 }
 
 .skills .skill p {
-    font-size: 16px;
+    font-size: 20px;
     padding: 20px 0;
     text-align: center;
 }

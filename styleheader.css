@@ -10,56 +10,44 @@ body {
     overflow-x: hidden;
 }
 
-#header-portfolio {
+.header-portfolio {
     background-image: url(img/giphy.gif);
-    width: 100%;
-    display: grid;
-    grid-template-columns: 100vw;
-}
-
-#header-portfolio, #title-footer {
-    color: #fff;
+    color:  white;
     text-align: center;
+    padding: 20px;
+    margin: auto;
 }
 
 #title-footer {
-    margin: 40px 0;
     padding-top: 30px;
     font-size: 80px;
+    margin: auto;
 }
 
 .title-2 {
-    margin: 40px 0;
+    margin: auto;
     font-size: 50px;
+    padding: 30px;
 }
 
 .p-header {
     font-size: 30px;
-    width: 80%;
-    margin: 40px auto;
+    margin: auto;
+    padding: 30px;
 }
-
 
 .header-socials {
-    width: 80%;
+    width: 90%;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    justify-self: center;
     align-items: center;
-    margin: 40px 0;
+    margin: 30px auto;
 }
 
-.color-linkedin {
-    color: #0e76a8;
-}
-
-.color-git {
-    color: white;
-}
-
-.color-devmedia {
-    color: #7bac3b;
+.img-socials {
+    height: 110px;
+    width: 110px;
+    margin: 20px 0;
 }
 
 @media (max-width: 700px){

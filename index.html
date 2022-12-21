@@ -21,17 +21,31 @@
 
 <body>
 
-    <header id="header-portfolio">
-
-        <h1 id="title-footer" >Leonardo Araujo</h1>
-        <h2 class="title-2" >Frontend Developer, Brazil</h2>
-        <p class="p-header" >Graduando do 10º período em Engenharia Química pela UTFPR e 1º período em Análise e Desenvolvimento de Sistemas pela UNFIL </p>
+    <header class="header-portfolio">
+        
+        <div class="container-header">
+            <h1 id="title-footer" >Leonardo Araujo</h1>
+            <h2 class="title-2" >Frontend Developer, Brazil</h2>
+            <p class="p-header" >Graduando do 10º período em Engenharia Química pela UTFPR e 1º período em Análise e Desenvolvimento de Sistemas pela UNFIL </p>
+        </div>
             
             
         <nav class="header-socials">
-            <a href="https://github.com/Sol1nh0" class="color-git" target="_blank"><i class="fa-brands fa-5x fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/leonardo-araujo-6a52b9173/" class="color-linkedin" target="_blank"><i class="fa-brands fa-5x fa-linkedin"></i></a>
-            <a href="https://www.devmedia.com.br/perfil/leonardo-araujo-13" class="color-devmedia" target="_blank"><i class="fa-brands fa-5x fa-dev"></i></a>
+            <div class="box-socials">
+                <a href="https://github.com/Sol1nh0" target="_blank">
+                    <img src="img/github.png" class="img-socials" alt="">
+                </a>
+            </div>
+            <div class="box-socials">
+                <a href="https://www.linkedin.com/in/leonardo-araujo-6a52b9173/" target="_blank">
+                    <img src="img/linkedin.png" class="img-socials" alt="">
+                </a>
+            </div>
+            <div class="box-socials">
+                <a href="https://www.devmedia.com.br/perfil/leonardo-araujo-13" target="_blank">
+                    <img src="img/devmedia.png" class="img-socials" alt="">
+                </a>
+            </div>
         </nav>
             
         
@@ -73,23 +87,23 @@
                 <section class="skills">
                         
                         <div class="skill">
-                            <img src="img/html5.png" alt="html5">
+                            <img src="img/HTML 5.webp" alt="html5">
                             <p>HTML</p>
                         </div>
                         <div class="skill">
-                            <img src="img/css3.png" alt="css3">
+                            <img src="img/CSS 3.webp" alt="css3">
                             <p>CSS</p>
                         </div>
                         <div class="skill">
-                            <img src="img/c++.png" alt="c++">
+                            <img src="img/C++.webp" alt="c++">
                             <p>C++</p>
                         </div>
                         <div class="skill">
-                            <img src="img/sql.png" alt="sql">
+                            <img src="img/SQL.webp" alt="sql">
                             <p>SQL</p>
                         </div>
                         <div class="skill">
-                            <img src="img/github.png" alt="github">
+                            <img src="img/Git.webp" alt="github">
                             <p>GITHUB</p>
                         </div>
                         <div class="skill">
@@ -101,32 +115,16 @@
                             <p>SCILAB</p>
                         </div>
                         <div class="skill">
-                            <img src="img/html5.png" alt="html5">
-                            <p>HTML</p>
+                            <img src="img/Javascript.webp" alt="scilab">
+                            <p>Javascript</p>
                         </div>
                         <div class="skill">
-                            <img src="img/css3.png" alt="css3">
-                            <p>CSS</p>
+                            <img src="img/Java.webp" alt="scilab">
+                            <p>Java</p>
                         </div>
                         <div class="skill">
-                            <img src="img/c++.png" alt="c++">
-                            <p>C++</p>
-                        </div>
-                        <div class="skill">
-                            <img src="img/sql.png" alt="sql">
-                            <p>SQL</p>
-                        </div>
-                        <div class="skill">
-                            <img src="img/github.png" alt="github">
-                            <p>GITHUB</p>
-                        </div>
-                        <div class="skill">
-                            <img src="img/matlab.png" alt="matlab">
-                            <p>MATLAB</p>
-                        </div>
-                        <div class="skill">
-                            <img src="img/scilab.png" alt="scilab">
-                            <p>SCILAB</p>
+                            <img src="img/Docker.webp" alt="scilab">
+                            <p>Docker</p>
                         </div>
 
                 </section>
@@ -136,7 +134,7 @@
                 <section class="container-projects">
                 
                         <div class="project">
-                            <h2>Meu portfolio</h2>
+                            <div class="project-title"><h2>Meu portfolio</h2></div>
                             <div class="card-descricao">
                                 <p class="descricao">O projeto consiste em utilizar a responsividade com CSS3 e html5, e futuramente irei utilizar Javascript para incrementar eventos dentro do site.</p>
                             </div>
@@ -146,7 +144,7 @@
                                 </div>
                         </div>
                         <div class="project">
-                            <h2>Site de Produtos de informática</h2>
+                            <div class="project-title"><h2>Site de Produtos de informática</h2></div>
                             <div class="card-descricao">
                                 <p class="descricao">O projeto construído a partir de um curso da proway cursos, com objetivo de implementar responsividade, formulários, rooting, e posteriormente o versionamento do código.</p>
                             </div>
@@ -154,10 +152,12 @@
                                 <span class="descricao">HTML</span>
                                 <span class="descricao">CSS</span>
                                 <span class="descricao">Typescript</span>
+                                <span class="descricao">CSS</span>
+                                <span class="descricao">Typescript</span>
                                 </div>
                         </div>
                         <div class="project">
-                            <h2>Projeto 3</h2>
+                            <div class="project-title"><h2>Projeto 3</h2></div>
                             <div class="card-descricao">
                                 <p class="descricao">O projeto consiste em utilizar responsividade com CSS e html O projeto consiste 
                                     em utilizar responsividade com CSS e html</p>
@@ -168,7 +168,7 @@
                                 </div>
                         </div>
                         <div class="project">
-                            <h2>Projeto 4</h2>
+                            <div class="project-title"><h2>Projeto 4</h2></div>
                             <div class="card-descricao">
                                 <p class="descricao">O projeto consiste em utilizar responsividade com CSS e html O projeto consiste 
                                     em utilizar responsividade com CSS e html</p>
@@ -179,7 +179,7 @@
                                 </div>
                         </div>
                         <div class="project">
-                            <h2>Projeto 5</h2>
+                           <div class="project-title"> <h2>Projeto 5</h2></div>
                             <div class="card-descricao">
                                 <p class="descricao">O projeto consiste em utilizar responsividade com CSS e html O projeto consiste 
                                     em utilizar responsividade com CSS e html</p>
@@ -190,7 +190,7 @@
                                 </div>
                         </div>
                         <div class="project">
-                            <h2>Projeto 6</h2>
+                            <div class="project-title"><h2>Projeto 6</h2></div>
                             <div class="card-descricao">
                                 <p class="descricao">O projeto consiste em utilizar responsividade com CSS e html O projeto consiste 
                                     em utilizar responsividade com CSS e html</p>
@@ -201,7 +201,7 @@
                                 </div>
                         </div>
                         <div class="project">
-                            <h2>Projeto 7</h2>
+                            <div class="project-title"><h2>Projeto 7</h2></div>
                             <div class="card-descricao">
                                 <p class="descricao">O projeto consiste em utilizar responsividade com CSS e html O projeto consiste 
                                     em utilizar responsividade com CSS e html</p>
@@ -212,7 +212,7 @@
                                 </div>
                         </div>
                         <div class="project">
-                            <h2>Projeto 8</h2>
+                            <div class="project-title"><h2>Projeto 8</h2></div>
                             <div class="card-descricao">
                                 <p class="descricao">O projeto consiste em utilizar responsividade com CSS e html O projeto consiste 
                                     em utilizar responsividade com CSS e html</p>
@@ -222,8 +222,6 @@
                                 <span class="descricao">CSS</span>
                                 </div>
                         </div>
-
-
                         
                 </section>
 
