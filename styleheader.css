@@ -11,7 +11,18 @@ body {
 }
 
 .header-portfolio {
-    background-image: url(img/giphy.gif);
+    height: 100%;
+    background-image: linear-gradient(to bottom, black, gold);
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+    border-bottom: 5px solid;
+    border-image-source: linear-gradient(45deg,transparent 0%,black 40%, black 60%,transparent 100%);
+    border-image-slice: 1;
+}
+
+.header-portfolio {
+    
     color:  white;
     text-align: center;
     padding: 20px;
