@@ -24,10 +24,16 @@
     margin: auto;
 }
 
+.skill img:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
 .skills .skill p {
     font-size: 20px;
     padding: 20px 0;
     text-align: center;
+    text-transform: uppercase;
 }
 
 @media (max-width: 400px) {
