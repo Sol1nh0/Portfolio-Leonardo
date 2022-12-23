@@ -25,7 +25,6 @@
     flex-flow: column wrap;
     flex-basis: 20%;
     align-items: center;
-    justify-items: center;
 }
 
 .project .style-span, .project .card-descricao, .project .link-project {
@@ -33,20 +32,18 @@
 }
 
 
-.card-descricao, .project-title, .link-project {
+.card-descricao, .project-title, .link-project{
     padding: 8px;
     display: flex;
     text-align: center;
 }
 
-
-
-.descricao {
-    align-self: center;
-}
-
 .project-title {
     text-transform: uppercase;
+    
+}
+
+.descricao {
     align-self: center;
 }
 
@@ -73,7 +70,6 @@ span {
     text-transform: lowercase;
     padding: 5px;
     margin: 10px 5px;
-    align-items: center;
     border-radius: 50px;
 }
 
@@ -87,7 +83,7 @@ span:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: flex-end;
 }
 
 
